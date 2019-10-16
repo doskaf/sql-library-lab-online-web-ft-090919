@@ -43,4 +43,4 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES
 INSERT INTO characters (id, name, motto, species, author_id) VALUES
 (8, "Negan", "Wanna give Lucille a kiss?", "Human", 2);
 
-INSERT INTO character_books
+INSERT INTO character_books (id, )
