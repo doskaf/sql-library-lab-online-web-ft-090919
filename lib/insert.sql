@@ -28,3 +28,5 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES
 (7, "Hershel Greene", "The Earth is healing itself.", "Human", 2), 
 (8, "Negan", "Wanna give Lucille a kiss?", "Human", 2);
 
+INSERT INTO character_books (id, book_id, character_id) VALUES
+(1, );
