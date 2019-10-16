@@ -1,7 +1,5 @@
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES 
-(1, 'Harry Potter', 1, 1);
-INSERT INTO series (id, title, author_id, subgenre_id) VALUES 
-(2, 'The Walking Dead', 2, 2);
+(1, 'Harry Potter', 1, 1), (2, 'The Walking Dead', 2, 2);
 
 INSERT INTO subgenres (id, name) VALUES
 (1, 'Fantasy');
