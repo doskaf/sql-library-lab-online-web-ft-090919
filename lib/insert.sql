@@ -13,5 +13,3 @@ INSERT INTO books (id, title, year, series_id) VALUES
 INSERT INTO characters (id, name, motto, species, author_id) VALUES
 (1, "Harry Potter", "The Boy Who Lived", "Human Wizard", 1), (2, "Hermione Granger", "We could be killed! Or worse, expelled!", "Human Wizard", 1), (3, "Cedric Diggory", "Always remember this...", "Human Wizard", 1), (4, "Voldemort", "He Who Must Not Be Named", "Human Wizard", 1), (5, "Rick Grimes", "Keep hope alive.", "Human", 2), (6, "Glenn Rhee", "We can make it together.", "Human", 2), (7, "Hershel Greene", "The Earth is healing itself.", "Human", 2), (8, "Negan", "Wanna give Lucille a kiss?", "Human", 2);
 
-#INSERT INTO character_books (id, book_id, character_id) VALUES
-#(1, )
