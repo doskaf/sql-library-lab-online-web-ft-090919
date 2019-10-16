@@ -13,7 +13,7 @@ INSERT INTO authors (id, name) VALUES
 INSERT INTO books (id, title, year, series_id) VALUES
 (1, "Harry Potter and the Sorcerer's Stone", 1997, 1), 
 (2, "Harry Potter and the Chamber of Secrets", 2002, 1), 
-(3, "Harry Potter and the Prisoner of Azkaban", 2004, 1), 
+(3, "Harry Potter and the Prisoner of Azkaban", 2004, 1),
 (4, "The Walking Dead Volume 1: Days Gone Bye", 2003, 2), 
 (5, "The Walking Dead Volume 2: Miles Behind Us", 2004, 2), 
 (6, "The Walking Dead Volume 3: Safety Behind Bars", 2005, 2);
@@ -29,4 +29,6 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES
 (8, "Negan", "Wanna give Lucille a kiss?", "Human", 2);
 
 INSERT INTO character_books (id, book_id, character_id) VALUES
+(1, 1, 1), 
+(1, 1, 2),
 (1, );
